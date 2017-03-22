@@ -1,0 +1,46 @@
+{
+  "name": "react-firebase-chat",
+  "version": "1.0.0",
+  "description": "App para chatear con bots y personas - Firebase y React",
+  "main": "public/index.js",
+  "scripts": {
+    "build": "webpack --colors",
+    "serve": "webpack-dev-server --content-base public/ --colors --progress",
+    "deploy": "webpack -p",
+    "start": "npm run build && npm run serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/omarmfs98/react-firebase-chat.git"
+  },
+  "keywords": [
+    "react",
+    "firebase",
+    "chat"
+  ],
+  "author": "Omar Flórez <omarmfs98@protonmail.com> (https://aiudacode.blogspot.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carlosazaustre/react-firebase-chat/issues"
+  },
+  "homepage": "https://github.com/omarmfs98/react-firebase-chat#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "css-loader": "^0.26.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.24.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.3"
+  },
+  "dependencies": {
+    "firebase": "^3.7.2",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
